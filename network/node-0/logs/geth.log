@@ -1,0 +1,79 @@
+INFO [06-11|18:10:13.100] Maximum peer count                       ETH=50 total=50
+INFO [06-11|18:10:13.103] Set global gas cap                       cap=50,000,000
+INFO [06-11|18:10:13.103] Initializing the KZG library             backend=gokzg
+WARN [06-11|18:10:13.129] Sanitizing invalid miner gas price       provided=0 updated=1,000,000,000
+INFO [06-11|18:10:13.129] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [06-11|18:10:13.129] Using pebble as the backing database
+INFO [06-11|18:10:13.129] Allocated cache and file handles         database=/Users/niketyende/workspaces/ethereum-pos-testnet/network/node-0/execution/geth/chaindata cache=512.00MiB handles=5120
+INFO [06-11|18:10:13.218] Opened ancient database                  database=/Users/niketyende/workspaces/ethereum-pos-testnet/network/node-0/execution/geth/chaindata/ancient/chain readonly=false
+INFO [06-11|18:10:13.219] State scheme set to already existing     scheme=path
+INFO [06-11|18:10:13.219] Initialising Ethereum protocol           network=32382 dbversion=<nil>
+INFO [06-11|18:10:13.222] Failed to load journal, discard it       err="journal not found"
+INFO [06-11|18:10:13.243] Opened ancient database                  database=/Users/niketyende/workspaces/ethereum-pos-testnet/network/node-0/execution/geth/chaindata/ancient/state readonly=false
+INFO [06-11|18:10:13.243] 
+INFO [06-11|18:10:13.243] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [06-11|18:10:13.243] Chain ID:  32382 (unknown)
+INFO [06-11|18:10:13.243] Consensus: unknown
+INFO [06-11|18:10:13.243] 
+INFO [06-11|18:10:13.243] Pre-Merge hard forks (block based):
+INFO [06-11|18:10:13.243]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)
+INFO [06-11|18:10:13.243]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)
+INFO [06-11|18:10:13.243]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [06-11|18:10:13.243]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [06-11|18:10:13.243]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)
+INFO [06-11|18:10:13.243]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)
+INFO [06-11|18:10:13.243]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)
+INFO [06-11|18:10:13.243]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)
+INFO [06-11|18:10:13.243]  - Muir Glacier:                #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md)
+INFO [06-11|18:10:13.243]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)
+INFO [06-11|18:10:13.243]  - London:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)
+INFO [06-11|18:10:13.243]  - Arrow Glacier:               #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/arrow-glacier.md)
+INFO [06-11|18:10:13.243]  - Gray Glacier:                #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/gray-glacier.md)
+INFO [06-11|18:10:13.243] 
+INFO [06-11|18:10:13.243] Merge configured:
+INFO [06-11|18:10:13.243]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md
+INFO [06-11|18:10:13.243]  - Network known to be merged: true
+INFO [06-11|18:10:13.243]  - Total terminal difficulty:  0
+INFO [06-11|18:10:13.243] 
+INFO [06-11|18:10:13.243] Post-Merge hard forks (timestamp based):
+INFO [06-11|18:10:13.243]  - Shanghai:                    @1718109611 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/shanghai.md)
+INFO [06-11|18:10:13.243]  - Cancun:                      @1718109611 (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/cancun.md)
+INFO [06-11|18:10:13.243] 
+INFO [06-11|18:10:13.243] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [06-11|18:10:13.243] 
+INFO [06-11|18:10:13.243] Loaded most recent local block           number=0 hash=8dafaa..ffc544 td=1 age=2s
+WARN [06-11|18:10:13.243] Failed to load snapshot                  err="missing or corrupted snapshot"
+INFO [06-11|18:10:13.251] Rebuilding state snapshot
+INFO [06-11|18:10:13.254] Initialized transaction indexer          range="last 2350000 blocks"
+INFO [06-11|18:10:13.254] Resuming state snapshot generation       root=4b9f34..aae16c accounts=0 slots=0 storage=0.00B dangling=0 elapsed=3.168ms
+INFO [06-11|18:10:13.257] Generated state snapshot                 accounts=6 slots=0 storage=332.00B dangling=0 elapsed=6.021ms
+INFO [06-11|18:10:13.377] Gasprice oracle is ignoring threshold set threshold=2
+WARN [06-11|18:10:13.384] Engine API enabled                       protocol=eth
+INFO [06-11|18:10:13.384] Starting peer-to-peer node               instance=Geth/node-0/v1.14.3-stable-f6388d0b/darwin-arm64/go1.22.3
+INFO [06-11|18:10:13.420] New local node record                    seq=1,718,109,613,416 id=06129b0209a28e54 ip=127.0.0.1 udp=8400 tcp=8400
+INFO [06-11|18:10:13.421] Started P2P networking                   self=enode://f1fadb03a493cb1c74da48f7a5588ad0bf33b44b8703001ff9cdbe19310d36f798c9865a9efcec44272c56298cae9c16c696523545bbefa84d69649022396a73@127.0.0.1:8400
+INFO [06-11|18:10:13.422] IPC endpoint opened                      url=/Users/niketyende/workspaces/ethereum-pos-testnet/network/node-0/execution/geth.ipc
+INFO [06-11|18:10:13.423] Generated JWT secret                     path=network/node-0/execution/jwtsecret
+INFO [06-11|18:10:13.423] HTTP server started                      endpoint=127.0.0.1:8545 auth=false prefix= cors=* vhosts=localhost
+INFO [06-11|18:10:13.424] WebSocket enabled                        url=ws://127.0.0.1:8100
+INFO [06-11|18:10:13.424] WebSocket enabled                        url=ws://127.0.0.1:8200
+INFO [06-11|18:10:13.424] HTTP server started                      endpoint=127.0.0.1:8200 auth=true  prefix= cors=localhost vhosts=*
+INFO [06-11|18:10:23.445] Looking for peers                        peercount=0 tried=0 static=0
+INFO [06-11|18:10:33.461] Looking for peers                        peercount=1 tried=1 static=0
+INFO [06-11|18:10:35.147] Imported new potential chain segment     number=1 hash=a01977..e46e22 blocks=1 txs=0 mgas=0.000 elapsed=4.399ms mgasps=0.000 triedirty=0.00B
+INFO [06-11|18:10:35.164] Chain head was updated                   number=1 hash=a01977..e46e22 root=4b9f34..aae16c elapsed=4.685ms
+ERROR[06-11|18:10:35.164] Nil finalized block cannot evict old blobs
+INFO [06-11|18:10:35.168] Indexed transactions                     blocks=2 txs=0 tail=0 elapsed=3.712ms
+INFO [06-11|18:10:35.183] Starting work on payload                 id=0x0346f03f4f3105a1
+INFO [06-11|18:10:35.186] Updated payload                          id=0x0346f03f4f3105a1 number=2 hash=e0c8f8..95e30b txs=0 withdrawals=0 gas=0 fees=0 root=4b9f34..aae16c elapsed="70.125µs"
+INFO [06-11|18:10:40.196] Got interrupt, shutting down...
+INFO [06-11|18:10:40.196] HTTP server stopped                      endpoint=127.0.0.1:8545
+INFO [06-11|18:10:40.196] HTTP server stopped                      endpoint=127.0.0.1:8100
+INFO [06-11|18:10:40.197] HTTP server stopped                      endpoint=127.0.0.1:8200
+INFO [06-11|18:10:40.197] IPC endpoint closed                      url=/Users/niketyende/workspaces/ethereum-pos-testnet/network/node-0/execution/geth.ipc
+INFO [06-11|18:10:40.197] Ethereum protocol stopped
+INFO [06-11|18:10:40.197] Transaction pool stopped
+WARN [06-11|18:10:40.198] Already shutting down, interrupt more to panic. times=9
+INFO [06-11|18:10:40.298] Persisting dirty state to disk           root=4b9f34..aae16c layers=0
+INFO [06-11|18:10:40.303] Persisted dirty state to disk            size=69.00B elapsed=5.934ms
+INFO [06-11|18:10:40.348] Blockchain stopped

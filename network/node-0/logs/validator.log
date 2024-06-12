@@ -1,0 +1,30 @@
+time="2024-06-11 18:10:18" level=warning msg="Running on custom Ethereum network specified in a chain configuration yaml file" prefix=flags
+time="2024-06-11 18:10:18" level=info msg="Checking DB" databasePath="./network/node-0/consensus/validatordata" prefix=node
+Adding optimizations for validator slashing protection 100% [[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m[32m=[0m]  [0s:0s][0m
+time="2024-06-11 18:10:18" level=warning msg="No proposer settings were provided"
+time="2024-06-11 18:10:18" level=warning msg="You are using an insecure gRPC connection. If you are running your beacon node and validator on the same machines, you can ignore this message. If you want to know how to enable secure connections, see: https://docs.prylabs.network/docs/prysm-usage/secure-grpc" prefix=client
+time="2024-06-11 18:10:18" level=info msg="Starting validator node" prefix=node version="Prysm/Unknown/Local build. Built at: Moments ago"
+time="2024-06-11 18:10:18" level=info msg="Syncing with beacon node to align on chain genesis info" prefix=client
+time="2024-06-11 18:10:19" level=info msg="Beacon chain started" genesisTime=2024-06-11 18:10:11 +0530 IST prefix=client
+time="2024-06-11 18:10:19" level=info msg="Validator activated" index=0 prefix=client pubkey=0xa99a76ed7796 status=ACTIVE validatorIndex=0
+time="2024-06-11 18:10:19" level=info msg="Schedule for epoch 0" attesterCount=1 prefix=client proposerCount=3
+time="2024-06-11 18:10:19" level=info msg="Duties schedule" attesterCount=1 attesterPubkeys=[0xa99a76ed7796] prefix=client slot=2 slotInEpoch=2 timeUntilDuty=16s
+time="2024-06-11 18:10:19" level=info msg="Duties schedule" prefix=client proposerPubkey=0xa99a76ed7796 timeUntilDuty=28s
+time="2024-06-11 18:10:19" level=info msg="Duties schedule" prefix=client proposerPubkey=0xa99a76ed7796 timeUntilDuty=40s
+time="2024-06-11 18:10:19" level=info msg="Duties schedule" prefix=client proposerPubkey=0xa99a76ed7796 timeUntilDuty=52s
+time="2024-06-11 18:10:19" level=info msg="Starting health check routine for beacon node apis" prefix=client
+time="2024-06-11 18:10:19" level=warning msg="Validator client started without proposer settings such as fee recipient and will continue to use settings provided in the beacon node." prefix=client
+time="2024-06-11 18:10:19" level=info msg="Event stream reconnecting..." prefix=client
+time="2024-06-11 18:10:19" level=info msg="Starting event stream" prefix=client topics=[head]
+time="2024-06-11 18:10:19" level=info msg="Schedule for epoch 0" attesterCount=1 prefix=client proposerCount=3
+time="2024-06-11 18:10:19" level=info msg="Duties schedule" attesterCount=1 attesterPubkeys=[0xa99a76ed7796] prefix=client slot=2 slotInEpoch=2 timeUntilDuty=16s
+time="2024-06-11 18:10:19" level=info msg="Duties schedule" prefix=client proposerPubkey=0xa99a76ed7796 timeUntilDuty=28s
+time="2024-06-11 18:10:19" level=info msg="Duties schedule" prefix=client proposerPubkey=0xa99a76ed7796 timeUntilDuty=40s
+time="2024-06-11 18:10:19" level=info msg="Duties schedule" prefix=client proposerPubkey=0xa99a76ed7796 timeUntilDuty=52s
+time="2024-06-11 18:10:19" level=info msg="Submitted new sync message" blockRoot=0x1a1a76b6b0a6 prefix=client slot=0 slotStartTime=2024-06-11 18:10:11 +0530 IST timeSinceSlotStart=8.393626s validatorIndex=0
+time="2024-06-11 18:10:27" level=info msg="Submitted new sync message" blockRoot=0x1a1a76b6b0a6 prefix=client slot=1 slotStartTime=2024-06-11 18:10:23 +0530 IST timeSinceSlotStart=4.006737s validatorIndex=0
+time="2024-06-11 18:10:39" level=info msg="Submitted new sync message" blockRoot=0x0898f0f2fc35 prefix=client slot=2 slotStartTime=2024-06-11 18:10:35 +0530 IST timeSinceSlotStart=4.002774s validatorIndex=0
+time="2024-06-11 18:10:40" level=info msg="Got interrupt, shutting down..." prefix=node
+time="2024-06-11 18:10:40" level=info msg="Stopping service" prefix=client
+time="2024-06-11 18:10:40" level=info msg="Context canceled, stopping validator" prefix=client
+time="2024-06-11 18:10:40" level=info msg="Stopping Prysm validator" prefix=node
